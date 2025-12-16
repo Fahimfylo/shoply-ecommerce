@@ -24,9 +24,15 @@ const PORT = process.env.PORT || 5000;
 // CORS for localhost only
 app.use(
   cors({
-    origin: "https://shoply00-ecommerce.netlify.app",
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "Cache-Control",
+      "Expires",
+      "Pragma",
+    ],
     credentials: true,
   })
 );
