@@ -5,21 +5,6 @@ This repository contains both the `client` and `server` folders. The project inc
 
 ---
 
-## 🔗 Live Demo
-**Live site:** `https://e-commerce-shop-d6930c.netlify.app`
-> Replace the above URL with your actual deployed site link.
-
----
-
-## 🔐 Demo Admin Credentials (for testing)
-> These credentials are only for development/demo purposes. **Do not commit real credentials to a public repo.**
-
-- **Admin email:** `admin123@gmail.com`  
-- **Admin password:** `12345678`
-
-If you want to use your own Gmail account for admin, update the server seed or your user in the database and change the env settings accordingly.
-
----
 
 ## 📌 Features
 
@@ -71,9 +56,3 @@ README.md
 2.Use .env files, and add them to .gitignore.
 
 3.For production, use secret managers or environment variables provided by your hosting provider.
-
-📞 Contact
-
-Author: Al-Amin Islam
-
-Email: jimalamin7@gmail.com
